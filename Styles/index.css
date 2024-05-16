@@ -16,3 +16,15 @@ header{
 .logo-name a img {
     height: 40px;
 }
+
+#nav-items {
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    font-size: 18px;
+    text-decoration: none;
+}
+
+#nav-items {
+    text-decoration: none;
+}
