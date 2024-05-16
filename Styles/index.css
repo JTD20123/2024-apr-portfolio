@@ -32,6 +32,28 @@ header{
     text-decoration: none;
 }
 
+@media screen and (min-width: 600px) {
+    header {
+        display: flex;
+        align-items: flex-end;
+        justify-content: space-between;
+    }
+
+    .name {
+        margin: 0;
+    }
+
+    #nav-items {
+        width: 50%;
+    }
+
+    .social-media{
+        width: 50%;
+        display: flex;
+        align-items: center;
+    }
+}
+
 footer {
     background-color: var(--primary-color) ;
     text-align: center;
@@ -46,4 +68,12 @@ footer {
 .social-media a i {
     font-size: 24px;
     color: #1c3c5c;
+}
+
+.info {
+    color: #1c3c5c;
+}
+
+.info p {
+    margin: 5px 0;
 }
